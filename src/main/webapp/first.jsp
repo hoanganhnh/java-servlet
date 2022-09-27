@@ -20,6 +20,12 @@
 
       .img-container > img {
         width: 50%;
+        transition: all 250ms ease-in-out;
+        margin-bottom: 60px;
+      }
+
+      .img-container > img:hover {
+        transform: scale(1.2);
       }
     </style>
   </head>
@@ -46,7 +52,7 @@
         </div>
         <div class="col-lg-6 col-sm-12 img-container">
           <img
-            src="https://images.unsplash.com/photo-1553531888-a5892402adce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            src="https://images.unsplash.com/photo-1593560368818-bd0c238ef976?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
           />
         </div>

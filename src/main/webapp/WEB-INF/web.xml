@@ -18,14 +18,14 @@
     <servlet-name>First</servlet-name>
     <url-pattern>/first</url-pattern>
   </servlet-mapping>
-  <servlet-mapping>
+  <!-- <servlet-mapping>
     <servlet-name>Second</servlet-name>
     <url-pattern>/second</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
+  </servlet-mapping> -->
+  <!-- <servlet-mapping>
     <servlet-name>Third</servlet-name>
     <url-pattern>/third</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
 
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
